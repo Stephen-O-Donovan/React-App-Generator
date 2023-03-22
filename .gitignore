@@ -2,12 +2,8 @@
 ### Misc Files ###
 Guide.docx
 
-### Linux ###
-*~
-
 # Dependency directories
 **/node_modules/
-jspm_packages/
 
 # TypeScript cache
 *.tsbuildinfo

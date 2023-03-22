@@ -10,9 +10,10 @@ fi
 # Take name from passed in arguement, or use default
 backend_name=${1:-backend-task-manager}
 
+# Create directory
 mkdir $backend_name
-
 cd $backend_name
+
 # Initialise the project and create package.json
 npm init -y
 

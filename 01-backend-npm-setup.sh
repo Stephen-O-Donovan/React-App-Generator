@@ -12,9 +12,6 @@ backend_name=${1:-backend-task-manager}
 
 mkdir $backend_name
 
-# Copy the gitignore file into the backend folder
-cp .gitignore $backend_name/
-
 cd $backend_name
 # Initialise the project and create package.json
 npm init -y
